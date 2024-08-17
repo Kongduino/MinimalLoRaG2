@@ -71,7 +71,9 @@ Meanwhile I keep an eye on the HiveMQ Web client to see whether the packets are 
 ![HiveMQ](./Assets/HiveMQ.png)
 
 
+## Varia
 
+The code for the CardPuter (and RAK4631) version of this Minimal LoRa isn't available yet. I will link to it when it is released. It shouldn't be too hard to reproduce anyway – or buy two Stations G2, and have them ping each other.
 
 
 
