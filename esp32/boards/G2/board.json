@@ -1,0 +1,21 @@
+{
+    "deploy": [
+        "../deploy_s3.md"
+    ],
+    "docs": "",
+    "features": [
+        "BLE",
+        "SPIRAM",
+        "USB-C",
+        "BLE",
+        "STEMMA QT/QWIIC",
+    ],
+    "images": [
+        "Station_G2_overview_small.jpg"
+    ],
+    "mcu": "esp32s3",
+    "product": "Meshtastic Mesh Device Station G2",
+    "thumbnail": "",
+    "url": "https://shop.uniteng.com/product/meshtastic-mesh-device-station-edition/",
+    "vendor": "uniteng"
+}
