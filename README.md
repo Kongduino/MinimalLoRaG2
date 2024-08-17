@@ -49,6 +49,8 @@ myUUIDtext = "DECAFBADBADD"
 
 `SSID` and `PWD` are for the wifi; `pKey` is the encryption key for the LoRa packets. For testing, I am publishing to HiveMQ's public server. You can replace this with another MQTT broker of your choice. Finally myUUID is the device's UUID, with a textual version. Pick your own :-) The 6 bytes of the UUID are the first six bytes of the packet.
 
+### Friends
+
 The `friends.txt` file is a list of tab separated lines listing UUIDs and nicknames. It looks like this:
 
 ```
@@ -57,3 +59,20 @@ The `friends.txt` file is a list of tab separated lines listing UUIDs and nickna
 ```
 
 Again, make up your own UUIDs. These two are my M5Stack CardPuters.
+
+## Running
+
+I run it in Thonny. It displays logs in the REPL. The hexdump code, which I wrote many years ago, and is now included I think in MP, makes it a clean output.
+
+![REPL](./Assets/REPL.png)
+
+Meanwhile I keep an eye on the HiveMQ Web client to see whether the packets are logged. Incoming and outgoing packets should be logged. WiFi and MQTT sometimes fail, but I don't see why. There seems to be no real rule to it. A few reboots usually fix the issue.
+
+![HiveMQ](./Assets/HiveMQ.png)
+
+
+
+
+
+
+
